@@ -10,6 +10,7 @@ function Footer() {
 
   return (
    <footer className=" footer mx-auto flex justify-between items-center px-4 py-4">
+   <nav className="container mx-auto flex justify-between items-center px-4">
   <div>
     <span>
       {t.contact}
@@ -49,6 +50,7 @@ function Footer() {
       />
     </a>
   </nav>
+</nav>
 </footer>
 
   );
