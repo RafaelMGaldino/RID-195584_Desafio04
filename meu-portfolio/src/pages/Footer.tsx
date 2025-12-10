@@ -11,21 +11,21 @@ function Footer() {
   return (
    <footer className=" footer mx-auto flex justify-between items-center px-4 py-4">
    <nav className="container mx-auto flex justify-between items-center px-4">
-  <div>
+  <div className=" gap-6">
     <span>
       {t.contact}
       <br /> 88 92180-9705
     </span>
   </div>
 
-  <div>
+  <div className=" gap-6 ">
     <span>
       {t.email}
       <br /> rafaelmartinsgaldino2020@gmail.com
     </span>
   </div>
 
-  <nav className="container flex justify-center items-center gap-6 ml-4 backgro">
+  <div className="gap-6 ml-4 ">
     <a
       href="http://www.linkedin.com/in/rafaelmgaldino"
       target="_blank"
@@ -49,7 +49,7 @@ function Footer() {
         className="w-6 h-6 hover:opacity-80"
       />
     </a>
-  </nav>
+  </div>
 </nav>
 </footer>
 
