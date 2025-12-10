@@ -50,8 +50,8 @@ Você pode visualizar a versão hospedada aqui:
 
 Caso queira entrar em contato comigo para oportunidades, dúvidas ou sugestões:
 
-LinkedIn: https://linkedin.com/in/SEU-LINK
+LinkedIn: https://linkedin.com/inr/rafaelmgaldino
 
-GitHub: https://github.com/SEU-USUARIO
+GitHub: https://github.com/rafaelmgaldino
 
-E-mail: SEU-EMAIL
+E-mail: rafaelmartinsgaldino2020@gmail.com
