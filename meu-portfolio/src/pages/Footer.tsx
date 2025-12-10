@@ -9,7 +9,7 @@ function Footer() {
   const t = texts[lang].footer;
 
   return (
-   <footer className="footer mx-auto flex justify-between items-center px-4 py-4">
+   <footer className=" container footer mx-auto flex justify-between items-center px-4 py-4">
   <div>
     <span>
       {t.contact}
