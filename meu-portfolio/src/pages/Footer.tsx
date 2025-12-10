@@ -9,7 +9,7 @@ function Footer() {
   const t = texts[lang].footer;
 
   return (
-   <footer className=" container footer mx-auto flex justify-between items-center px-4 py-4">
+   <footer className=" footer mx-auto flex justify-between items-center px-4 py-4">
   <div>
     <span>
       {t.contact}
@@ -24,7 +24,7 @@ function Footer() {
     </span>
   </div>
 
-  <nav className="flex justify-center items-center gap-6 ml-4 backgro">
+  <nav className="container flex justify-center items-center gap-6 ml-4 backgro">
     <a
       href="http://www.linkedin.com/in/rafaelmgaldino"
       target="_blank"
