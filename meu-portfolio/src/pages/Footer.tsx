@@ -3,56 +3,47 @@ import { texts } from "../language/texts";
 import LinkedinIcon from "../assets/Linkedin.svg";
 import GithubIcon from "../assets/github.svg";
 
-
 function Footer() {
   const { lang } = useLanguage();
   const t = texts[lang].footer;
 
   return (
-   <footer className=" footer mx-auto flex justify-between items-center px-4 py-4">
-   <nav className="container mx-auto flex justify-between items-center px-4">
-  <div className=" gap-6">
-    <span>
-      {t.contact}
-      <br /> 88 92180-9705
-    </span>
-  </div>
+    <footer className="footer w-full py-6">
+      <nav className="max-width justify-center flex gap-20 px-4">
+        <div className="flex flex-col gap-1 ">
+          <span className="font-semibold text-lg">{t.contact}</span>
+          <span>88 92180-9705</span>
+        </div>
 
-  <div className=" gap-6 ">
-    <span>
-      {t.email}
-      <br /> rafaelmartinsgaldino2020@gmail.com
-    </span>
-  </div>
+        <div className="flex flex-col gap-1 margin-left">
+          <span className="font-semibold text-lg">{t.email}</span>
+          <span>rafaelmartinsgaldino2020@gmail.com</span>
+        </div>
 
-  <div className="gap-6 ml-4 ">
-    <a
-      href="http://www.linkedin.com/in/rafaelmgaldino"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <img
-        src={LinkedinIcon}
-        alt="LinkedIn"
-        className="w-6 h-6 hover:opacity-80"
-      />
-    </a>
+        <div className="flex items-center">
+          <a
+            href="http://www.linkedin.com/in/rafaelmgaldino"
+            target="_blank"
+            rel="noreferrer"
+            className="p-2 rounded-lg hover:bg-gray-700 transition"
+          >
+            <img src={LinkedinIcon} alt="LinkedIn" className="w-7 h-7" />
+          </a>
 
-    <a
-      href="https://github.com/rafaelmgaldino"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <img
-        src={GithubIcon}
-        alt="GitHub"
-        className="w-6 h-6 hover:opacity-80"
-      />
-    </a>
-  </div>
-</nav>
-</footer>
-
+        </div>
+         <div className="flex items-center">
+        
+          <a
+            href="https://github.com/rafaelmgaldino"
+            target="_blank"
+            rel="noreferrer"
+            className="p-2 rounded-lg hover:bg-gray-700 transition"
+          >
+            <img src={GithubIcon} alt="GitHub" className="w-7 h-7" />
+          </a>
+        </div>
+      </nav>
+    </footer>
   );
 }
 

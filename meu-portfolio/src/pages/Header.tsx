@@ -1,4 +1,4 @@
-// src/pages/Header.tsx
+
 import { useState } from "react";
 import { useLanguage } from "../context/LanguageContext";
 import { texts } from "../language/texts";

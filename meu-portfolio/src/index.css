@@ -86,6 +86,10 @@ body::before {
   margin: 0 auto;
   padding: 0 var(--spacing-2);
 }
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 /* Tipografia */
 h1, h2, h3, h4, h5, h6 {
@@ -225,8 +229,15 @@ span {
   gap: var(--spacing-8);
 }
 
+.gap-20 {
+  gap: var(--spacing-20);
+}
+
 .margin-left{
-  margin-left: var(--spacing-10);
+  margin-left: var(--spacing-20);
+}
+.margin-right{
+  margin-right: var(--spacing-10);
 }
 
 .margin-bottom-5{
